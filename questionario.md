@@ -1,4 +1,4 @@
-## Questionário estágio Assessoria de Inteligência de Dados - AID/SPLOR.
+## Questionário estágio Assessoria de Inteligência de Dados - AID/SPLOR
 
 * Quem é você?
 

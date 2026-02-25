@@ -1,4 +1,4 @@
-# Contratação Estagiário Assessoria de Inteligência de Dados - AID/SPLOR.
+# Contratação Estagiário Assessoria de Inteligência de Dados - AID/SPLOR
 
 Este repositório visa incluir requisitos para constratações futuras de estagiários na AID/SPLOR.
 
