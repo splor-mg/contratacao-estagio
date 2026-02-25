@@ -1,26 +1,27 @@
-## Expected outcome:
+## Resultado esperado:
 
-- A git repository with dataset and script located in GitHub.
-- A short (~2-3 minutes) video presentation of your git repository explaining what you have done and how it works. Please, use https://loom.com/ or similar software. We would like to assess your presentation skills so having your camera on would be a good advantage.
+* Um repositório git, hospedado no [GitHub](https://github.com/), com scripts e conjunto de dados gerados.
+* Um vídeo curto (~2–3 minutos) apresentando seu repositório, explicando o que você fez, o que você não fez, o que funcionou e o que não funcionou. Por favor, utilize [https://loom.com/](https://loom.com/) ou um software similar. Gostaríamos de avaliar suas habilidades de apresentação, então manter a câmera ligada será uma vantagem.
 
-## Challenge
+## Desafio
 
-- Write a script to get a reproducible normalized CSV data file of Road Safety Facts and Figures in the EU.
-- Include both script and your resulting data. 
-- The documentation should be included in the README.md file and it must be clear to follow.
-- The github repo should include anwsers to [this questions](https://github.com/transparencia-mg/contratacao-estagio/blob/main/questionario.md).
+* Escreva um script para obter um arquivo CSV normalizado e reproduzível com os dados de *Road Safety Facts and Figures* (Fatos e Números sobre Segurança Viária) na União Europeia.
+* Inclua tanto o script quanto o conjunto de dados resultante.
+* A documentação deve estar incluída no arquivo README.md e precisa ser clara e fácil de seguir.
+* O repositório no [GitHub](https://github.com/) deve incluir as respostas a [estas perguntas](questionario.md).
+* **Fique tranquilo(a)**, o mais importante será entender seu processo de desenvolvimento e não a finalização por completa de todas atividades aqui solicitadas.
 
-## More details:
+## Mais detalhes:
 
-- Use the following Wikipedia page and get the data from the “European Union Road Safety Facts and Figures” table: https://en.wikipedia.org/wiki/Road_safety_in_Europe
-- Resulting CSV file should only include the following columns: Country, Year, Area, Population, GDP per capita, Population density, Vehicle ownership, Total road deaths, Road deaths per Million Inhabitants. Note that “Year” column value is always 2018.
-- Data should be sorted by “Road deaths per Million Inhabitants” column.
-- We want a script for this and we want this script to be in python, so that you can demonstrate your knowledge of this given programming languages.
-- Your git repo should include all dependencies in standard way so that it can be run in the CI/CD.
-- Please, use simple and built-in libraries where possible rather than use a framework.
+* Utilize a seguinte página da Wikipedia [Road safety in Europe](https://en.wikipedia.org/wiki/Road_safety_in_Europe) e extraia os dados da tabela [European Union Road Safety Facts and Figures](https://en.wikipedia.org/wiki/Road_safety_in_Europe#:~:text=European%20Union%20Road%20Safety%20Facts%20and%20Figures).
+* O arquivo CSV resultante deve incluir apenas as seguintes colunas: Country (País), Year (Ano), Area (Área), Population (População), GDP per capita (PIB per capita), Population density (Densidade populacional), Vehicle ownership (Propriedade de veículos), Total road deaths (Total de mortes no trânsito), Road deaths per Million Inhabitants (Mortes no trânsito por milhão de habitantes).
+* Os dados devem estar ordenados pela coluna “Road deaths per Million Inhabitants”.
+* Queremos ver o script criado para isso, e ele deve ser em Python, para que você possa demonstrar seu conhecimento nessa linguagem de programação.
+* Seu repositório git deve incluir todas as dependências de forma padrão, para que possa ser executado em um ambiente de CI/CD.
+* Por favor, utilize bibliotecas simples e nativas sempre que possível, em vez de frameworks.
 
-## Bonus items:
+## Itens bônus:
 
-- Make your repository into a Tabular Data Package - here’s a [guide](https://datahub.io/docs/data-packages/publish-tabular).
-- Build a chart from the data to display some interesting insight. Feel free to play around with the visualization.
-- Make sure your chart is deployed to GitHub pages or somewhere else so we can take a look.
+* Transforme seu repositório em um [Data package](https://datapackage.org/overview/introduction/) — aqui está um [breve guia](https://framework.frictionlessdata.io/docs/guides/describing-data.html).
+* Construa um gráfico a partir dos dados para apresentar algum insight interessante. Fique à vontade para explorar a visualização.
+* Certifique-se de que seu gráfico esteja publicado no GitHub Pages ou em outro local, para que possamos visualizá-lo.
